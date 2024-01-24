@@ -1,4 +1,4 @@
-import { lisa,image } from "../assets/images";
+import { lisa,image,App,BL } from "../assets/images";
 import {
     car,
     contact,
@@ -16,7 +16,8 @@ import {
     react,
     redux,
     summiz,
-    tailwindcss
+    tailwindcss,
+    
 } from "../assets/icons";
 
 export const skills = [
@@ -70,6 +71,7 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
+    
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -77,8 +79,26 @@ export const skills = [
     }
 ];
 
-export const experiences = [
-  {
+export const experiences = [ 
+     {
+        title: "App Development",
+        company_name: "Travel App",
+        icon: App,
+        iconBg: "#a2d2ff",
+        date: "2023 present",
+        points: ["Explore the enchanting beauty of Sri Lanka with the Travel Ceylonapp. Immerse yourself in the rich culture, breathtaking landscapes, and vibrant events that this tropical paradise has to offer. Whether you're a local looking for new adventures or a traveler planning your dream trip, this app is your ultimate companion)."
+        ],
+    },
+    {
+        title: "Image Processing",
+        company_name: "DIP Project",
+        icon: image,
+        iconBg: "#a2d2ff",
+        date: "2023 Octomber 27",
+        points: ["Expertly navigating the realm of digital image processing with a specialized focus on denoising using autoencoders, ember recognition, and tonal edge detection, S&B (Structure and Brightness)."
+        ],
+    },
+    {
         title: "Illustrator",
         company_name: "lisa",
         icon: lisa,
@@ -91,14 +111,18 @@ export const experiences = [
         ],
     },
     {
-        title: "Image Processing",
-        company_name: "DIP Project",
-        icon: image,
+        title: "Blender",
+        company_name: "Robo",
+        icon: BL,
         iconBg: "#a2d2ff",
-        date: "2023 Octomber 27",
-        points: ["Expertly navigating the realm of digital image processing with a specialized focus on denoising using autoencoders, ember recognition, and tonal edge detection, S&B (Structure and Brightness)."
+        date: "2023 octomber 2",
+        points: ["Blender is a powerful and versatile 3D modeling and animation software that offers a robust set of tools for creating a wide range of projects, including robotic designs. To begin creating a robot using Blender, start by familiarizing yourself with the user interface, accessible panels, and navigation controls. Utilize the application's mesh modeling tools to shape the individual components of your robot, ensuring precision and attention to detail. Blender's intuitive sculpting features can be employed for refining organic shapes or adding intricate details to your robot's structure.",
+        "advantage of the software's rigging capabilities to create a skeletal structure for your robot, allowing for realistic movement and animation. Furthermore, Blender's animation and keyframing tools enable you to bring your robotic creation to life by defining movements and sequences.",
+        "With its comprehensive rendering options, you can produce high-quality images and animations of your robotic masterpiece. Whether you are a beginner or an advanced user, Blender's extensive community and documentation provide valuable resources to enhance your robotic design skills.",
+
         ],
     }
+ 
 ];
 
 export const socialLinks = [
@@ -125,7 +149,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'YAMINI CLEANING SERVICE MANAGEMENT SYSTEM',
         description: 'This is a MERN-based web application for managing YAMINI Cleaning service. Consist of Customer management, Employee management, Payroll and Payment management, Quotation Management and many more.',
-        link: 'https://github.com/vinodi00/YAMINI-CLEANING-SERVICE-MANAGEMENT-SYSTEM.git',
+        link: 'https://github.com/vinodi00/Cleaning-Services.git',
     },
     
     {
@@ -139,14 +163,14 @@ export const projects = [
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'DIGITAL IMAGE PROCESSING',
-        description: '',
+        description: 'The Digital Image Processing App is a Python-based application designed to enhance and manipulate digital images. The app leverages the power of OpenCV and NumPy libraries for image processing operations, providing users with the ability to modify grayscale tones and apply denoising techniques.',
         link: 'https://github.com/vinodi00/DIP.git',
     },
     {
         iconUrl: motion,
         theme: 'btn-back-yellow',
         name: 'illustrator',
-        description: '',
+        description: 'I enjoy illustrating and have a particular passion for drawing various images, especially focusing on cartoon and anime faces. Additionally, I occasionally design prints for T-shirts, incorporating all of my creative endeavors into this artistic process.',
         link: 'https://github.com/vinodi00/Illustrator.git',
     }
 ];
