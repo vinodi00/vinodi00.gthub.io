@@ -197,5 +197,13 @@ export const projects = [
         description: 'My passion for bringing ideas to life led me to explore and master various 3D modeling tools and techniques.Using my skills, I have successfully crafted intricate and visually compelling 3D models that capture the essence of the projects I undertake',
         link: 'https://www.behance.net/gallery/190107497/3D-Art',
         
+    },
+    {
+        iconUrl: mui,
+        theme: 'btn-back-yellow',
+        name: 'CapCut',
+        description: 'Fragile Promises',
+        link: 'https://drive.google.com/drive/folders/18_jjUfvtbue0Qe4BYwqR4R7ke6X1TTgv',
+        
     }
 ];
