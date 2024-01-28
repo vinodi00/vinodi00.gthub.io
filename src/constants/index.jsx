@@ -171,6 +171,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'illustrator',
         description: 'I enjoy illustrating and have a particular passion for drawing various images, especially focusing on cartoon and anime faces. Additionally, I occasionally design prints for T-shirts, incorporating all of my creative endeavors into this artistic process.',
-        link: 'https://github.com/vinodi00/Illustrator.git',
+        link: 'https://www.behance.net/gallery/190104777/Illustrator',
+        link: 'https://www.behance.net/gallery/190105737/Posters',
     }
 ];
