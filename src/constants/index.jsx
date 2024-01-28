@@ -17,6 +17,7 @@ import {
     redux,
     summiz,
     tailwindcss,
+    mui,
     
 } from "../assets/icons";
 
@@ -174,7 +175,7 @@ export const projects = [
         link: 'https://www.behance.net/gallery/190104777/Illustrator',
     },
     {
-        iconUrl: motion,
+        iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'POSTERS',
         description: 'keen passion for visual storytelling, I specialize in crafting captivating movie posters using Canva. With a creative mindset and an eye for design, I bring concepts to life, ensuring each poster not only grabs attention but also communicates the essence of the narrative.',
@@ -187,6 +188,14 @@ export const projects = [
         name: 'FIGMA',
         description: 'I am passionate about digital design, and I recently undertook an exciting project using Figma.Figma versatile tools allowed me to bring my design ideas to fruition with precision.Through this experience, I gained valuable insights into the power of Figma as a design and prototyping tool, and I look forward to further exploring its capabilities in future projects.',
         link: 'https://www.behance.net/gallery/190106915/Figma',
+        
+    },
+    {
+        iconUrl: mui,
+        theme: 'btn-back-yellow',
+        name: '3D ART',
+        description: 'My passion for bringing ideas to life led me to explore and master various 3D modeling tools and techniques.Using my skills, I have successfully crafted intricate and visually compelling 3D models that capture the essence of the projects I undertake',
+        link: 'https://www.behance.net/gallery/190107497/3D-Art',
         
     }
 ];
