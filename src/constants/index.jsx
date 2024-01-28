@@ -177,7 +177,8 @@ export const projects = [
         iconUrl: motion,
         theme: 'btn-back-yellow',
         name: 'POSTER',
-        description: 'keen passion for visual storytelling, I specialize in crafting captivating movie posters using Canva. With a creative mindset and an eye for design, I bring concepts to life, ensuring each poster not only grabs attention but also communicates the essence of the narrative.My approach involves leveraging the versatile tools within Canva to produce visually stunning posters that stand out. Whether it's dynamic elements, seamless user interfaces, or comprehensive web applications, I use my skills to enhance the overall aesthetic appeal of each project.',
+        description: 'keen passion for visual storytelling, I specialize in crafting captivating movie posters using Canva. With a creative mindset and an eye for design, I bring concepts to life, ensuring each poster not only grabs attention but also communicates the essence of the narrative.',
         link: 'https://www.behance.net/gallery/190105737/Posters',
+        
     }
 ];
