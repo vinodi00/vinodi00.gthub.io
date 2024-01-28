@@ -100,7 +100,7 @@ export const experiences = [
     },
     {
         title: "Illustrator",
-        company_name: "lisa",
+        company_name: "",
         icon: lisa,
         iconBg: "#a2d2ff",
         date: "2024 January 10",
