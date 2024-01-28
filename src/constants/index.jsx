@@ -176,9 +176,17 @@ export const projects = [
     {
         iconUrl: motion,
         theme: 'btn-back-yellow',
-        name: 'POSTER',
+        name: 'POSTERS',
         description: 'keen passion for visual storytelling, I specialize in crafting captivating movie posters using Canva. With a creative mindset and an eye for design, I bring concepts to life, ensuring each poster not only grabs attention but also communicates the essence of the narrative.',
         link: 'https://www.behance.net/gallery/190105737/Posters',
+        
+    },
+     {
+        iconUrl: motion,
+        theme: 'btn-back-yellow',
+        name: 'FIGMA',
+        description: 'I am passionate about digital design, and I recently undertook an exciting project using Figma.Figma versatile tools allowed me to bring my design ideas to fruition with precision.Through this experience, I gained valuable insights into the power of Figma as a design and prototyping tool, and I look forward to further exploring its capabilities in future projects.',
+        link: 'https://www.behance.net/gallery/190106915/Figma',
         
     }
 ];
