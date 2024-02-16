@@ -191,6 +191,14 @@ export const projects = [
         
     },
     {
+        iconUrl: motion,
+        theme: 'btn-back-yellow',
+        name: 'GAME TECHNOLOGY',
+        description: '',
+        link: 'https://drive.google.com/drive/folders/1uCfGAYFFLeQo9SGMkKSkAdZyf',
+        
+    },
+    {
         iconUrl: mui,
         theme: 'btn-back-yellow',
         name: '3D ART',
