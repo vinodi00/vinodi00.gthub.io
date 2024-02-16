@@ -195,7 +195,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'GAME TECHNOLOGY',
         description: '',
-        link: 'https://drive.google.com/drive/folders/1uCfGAYFFLeQo9SGMkKSkAdZyf',
+        link: 'https://drive.google.com/drive/folders/1uCfGAYFFLeQo9SGMkKSkAdZyfm5ptzxT',
         
     },
     {
