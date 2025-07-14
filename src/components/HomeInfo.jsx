@@ -34,8 +34,8 @@ const HomeInfo = ({ currentStage }) => {
           Led multiple successful projects across game development and UI/UX design <br /> Curious about the impact?
         </p>
 
-        <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my Behance 
+        <Link to='https://www.behance.net/vinodisaumya' className='neo-brutalism-white neo-btn'>
+          Visit my Behance
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
